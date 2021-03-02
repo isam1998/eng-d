@@ -1,0 +1,31 @@
+body{background-image:url('kjhv.jpg');
+background-size: cover;
+padding: 0;margin:0;font-weight: bold;color:white;
+text-align: center}
+
+
+.card{text-align: center;background: none;padding: 0;margin:0;
+}
+.row .card{text-align: center;background: none;padding: 0;margin:0;
+box-shadow: 2px 2px 7px #555,
+             2px 2px 7px #555;
+             border-radius: 30%;}
+
+.card img{border-radius: 30%;height: 240px;box-shadow: 1px 1px 5px #555;width: 300px;margin: auto;;
+}
+ 
+
+
+.row {padding: 0;margin:0;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+  
+}
+.row .card-body{height: 400px;font-weight: bold}
+.row h5{margin: auto}
+
+
+
